@@ -7,9 +7,9 @@ const fitness=require("./routes/Fitness");
 const technology=require("./routes/Technology");
 
 const app = express();
-const cors=require('cors');
+// const cors=require('cors');
 
-app.use(cors({origin:"*"}));
+// app.use(cors({origin:"*"}));
 app.use("/",home);
 app.use("/",bollywood);
 app.use("/",hollywood);
